@@ -5,6 +5,9 @@ Esta implementação apresenta uma aplicação prática do algoritmo de aprendiz
 
 ![resultado000](img/result00.png) 
 
+
+- Implementação disponível em [src/naive_bayes_map.ipynb](.src/naive_bayes_map.ipynb)
+
 ## Classificador Bayesiano
 
 O Classificador Bayesiano é dado pela **função discriminante $dj(x)$** :
@@ -88,6 +91,10 @@ A partir daí uma sobreposição com transparência pode ser aplicada à imagem 
 ![resultado01](img/result01.png) 
 ![resultado02](img/result02.png) 
 ![resultado03](img/result03.png) 
+
+
+
+
 ## Referências
 
 Esta implementação foi elaborada com base nas aulas e material disponibilizados na disciplina CSI707: Aprendizagem de Máquina - UFOP - ICEA, pelo professor Eduardo da Silva Ribeiro.

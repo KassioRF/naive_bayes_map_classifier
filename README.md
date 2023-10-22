@@ -80,7 +80,7 @@ Também é interessante visualizar como o modelo classifica cada pixel nas amost
 ## Classificando mapas
 A classficiação é feita pixel a pixel, e por tanto a imagem de entrada deve ser carregada na estrutura adequada (vetor coluna de pixels).
 
-A melhor forma de vizualizar o resultado da classificação é gerar nova imagem de saída, a princípio vazia, mas com as mesmas dimensões da imagem de entrada. E então, durante a classificação de cada pixel da imagem de entrada, atribuir à imagem de saída o respectivo pixel, porém com uma cor que identifique a classe.
+A melhor forma de visualizar o resultado da classificação é gerar nova imagem de saída, a princípio vazia, mas com as mesmas dimensões da imagem de entrada. E então, durante a classificação de cada pixel da imagem de entrada, atribuir à imagem de saída o respectivo pixel, porém com uma cor que identifique a classe.
 
 Como saída bruta obtemos uma imagem contendo apenas pixels com a cor de cada classe.
 

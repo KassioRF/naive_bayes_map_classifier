@@ -6,7 +6,7 @@ Esta implementação apresenta uma aplicação prática do algoritmo de aprendiz
 ![resultado000](img/result00.png) 
 
 
-- Implementação disponível em [src/naive_bayes_map.ipynb](.src/naive_bayes_map.ipynb)
+- Implementação disponível em [src/naive_bayes_map.ipynb](./src/naive_bayes_map.ipynb)
 
 ## Classificador Bayesiano
 

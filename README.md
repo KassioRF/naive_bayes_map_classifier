@@ -3,7 +3,7 @@
 
 Esta implementação apresenta uma aplicação prática do algoritmo de aprendizagem generativa Naive Bayes na classificação/categorização de regiões em imagens de satélite (mapas).
 
-![resultado](img/result.png) 
+![resultado000](img/result00.png) 
 
 ## Classificador Bayesiano
 

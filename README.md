@@ -15,7 +15,7 @@ $d_j(x)$ = $\ln{[p(x/\omega_j) P(w_j)]}$, onde:
  - $x$ é a amostra de entrada ( que será classificada ).
  - $w_j$ é o conjunto de amostras conhecidas pertencentes à classe $j$.
  - $P(w_j)$ é a probabilidade à priori de que uma amostra aleatória pertença a classe $j$.
- - $p(x/\omega_j)$ é a probabilidade condicional das características da amostra de entrada x pertencer a classe $j$, que por sua vez é dado por:
+ - $p(x/\omega_j)$ é a probabilidade condicional das características da amostra de entrada $x$ pertencer a classe $j$, que por sua vez é dado por:
 
     $p(x/\omega_j) = - \frac{1}{2} \ln|C_j| - \frac{1}{2}[(x - M_j)^t C_{j}^{-1}(x - M_j)]$, onde:
 
@@ -77,13 +77,11 @@ Também é interessante visualizar como o modelo classifica cada pixel nas amost
 ## Classificando mapas
 A classficiação é feita pixel a pixel, e por tanto a imagem de entrada deve ser carregada na estrutura adequada (vetor coluna de pixels).
 
-A melhor forma de vizualizar o resultado da classificação gerar nova imagem de saída com as mesmas dimensões da entrada, e atribuir cores específicas acordo com a classificação do pixel.
+A melhor forma de vizualizar o resultado da classificação é gerar nova imagem de saída, a princípio vazia, mas com as mesmas dimensões da imagem de entrada. E então, durante a classificação de cada pixel da imagem de entrada, atribuir à imagem de saída o respectivo pixel, porém com uma cor que identifique a classe.
 
 Como saída bruta obtemos uma imagem contendo apenas pixels com a cor de cada classe.
 
 A partir daí uma sobreposição com transparência pode ser aplicada à imagem original de entrada facilitando a visualização das regiões classificadas.
-
-
 
 #### Resultados
 ![resultado00](img/result00.png) 

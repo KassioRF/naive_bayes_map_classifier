@@ -57,7 +57,7 @@ No contexto desta aplicação, um conjunto de amostras de treinamento é obtido 
 ![amostras de treinamento](img/sample_train_overview.png)
 
 
-## Availiação parcial do modelo de classificação.
+## Avaliação parcial do modelo de classificação.
 
 Para uma avaliação parcial do modelo, foram utilizadas amostras rotuladas de validação (amostras separadas do pool de treinamento).
 
@@ -67,7 +67,7 @@ Para uma avaliação parcial do modelo, foram utilizadas amostras rotuladas de v
 ### Matriz de confusão com dados de validação
 ![amostras de validação](img/cf_matrix_val.png)
 
-Também é interessante visualizar como o modelo classifica cada pixel nas amostras de validação. Pode ser util para avaliar qualidade das amostras de treinamento, assim como elaborar métodos de pré-processamento que possam auxiliar na distinção entre as *features* de cada classe.
+Também é interessante visualizar como o modelo classifica cada pixel nas amostras de validação. Pode ser útil para avaliar qualidade das amostras de treinamento, assim como elaborar métodos de pré-processamento que possam auxiliar na distinção entre as *features* de cada classe.
 
 #### Classificação das amostras de validação
 ![validacao_urbano](img/val_result_urban.png)

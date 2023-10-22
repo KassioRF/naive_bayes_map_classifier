@@ -85,8 +85,11 @@ A partir daí uma sobreposição com transparência pode ser aplicada à imagem 
 
 
 
-#### Resultado
-![resultado](img/result.png) 
+#### Resultados
+![resultado00](img/result00.png) 
+![resultado01](img/result01.png) 
+![resultado02](img/result02.png) 
+![resultado03](img/result03.png) 
 ## Referências
 
 Esta implementação foi elaborada com base nas aulas e material disponibilizados na disciplina CSI707: Aprendizagem de Máquina - UFOP - ICEA, pelo professor Eduardo da Silva Ribeiro.
